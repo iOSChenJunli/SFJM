@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  十方聚商家精简版
+//
+//  Created by YideNet on 16/5/9.
+//  Copyright © 2016年 YideNet. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "lib/Basic/BasicMerhod.h"
+#import "lib/Basic/RequestSingleInstance.h"
+#import "lib/API.h"
+#import "AFNetworking.h"
+#import "SVProgressHUD.h"
+#import "IQKeyboardManager.h"
+#import "MJRefresh.h"
+//#import "IQSegmentedNextPrevious.h"
+#endif
